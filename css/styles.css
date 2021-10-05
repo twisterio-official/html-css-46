@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-block > * {
+  display: flex;
+}
+
+input[type="text"] + label {
+  color: purple;
+}
