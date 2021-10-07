@@ -1,0 +1,16 @@
+:root {
+  --color-white: #fff;
+  --color-dark-grey: #303030;
+  --color-grey: #555;
+  --color-light-grey: #9DA4BD;
+  --color-orange: #FF6C00;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--color-dark-grey);
+}
+
+address {
+  font-style: normal;
+}
