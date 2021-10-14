@@ -6,11 +6,101 @@
   --color-orange: #FF6C00;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: var(--color-dark-grey);
+  margin: 0;
+  line-height: 1.15;
 }
 
 address {
   font-style: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn {
+  display: block;
+  width: 160px;
+  padding: 11px 0;
+  text-align: center;
+  border: 1px solid var(--color-orange);
+  color: var(--color-white);
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 25px;
+  letter-spacing: 0.09em;
+}
+
+/* стили шапки */
+.header {
+  background-color: #000; /* временно */
+  padding: 32px 0;
+}
+
+.header-container,
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 70px;
+}
+
+.main-menu-item + .main-menu-item {
+  margin-left: 40px;
+}
+
+.header-link {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: var(--color-orange);
+}
+
+.header-phone {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+/* стили героя */
+.hero-section {
+  background-image: url('../images/hero-desktop-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 132px 0 206px;
 }
