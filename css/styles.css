@@ -204,3 +204,79 @@ button {
   color: var(--color-grey);
   margin-bottom: 40px;
 }
+
+/* услуги и цены */
+.services-and-prices {
+  background-color: #111319;
+  background-image: url('../images/services-desktop-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* наши мастера */
+.our-masters {
+  background-color: #f7f7f7;
+}
+
+.masters-list {
+  margin: 0 -15px;
+}
+
+.masters-list-item {
+  width: 33.33333%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.master-image {
+  display: block; 
+  margin-bottom: 30px;
+}
+
+.master-name {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.master-job {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--color-orange);
+  margin-bottom: 30px;
+}
+
+.masters-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.masters-socials-item + .masters-socials-item {
+  margin-left: 10px;
+}
+
+.masters-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  color: var(--color-dark-grey);
+}
+
+.masters-socials-link:hover {
+  color: var(--color-orange);
+}
+
+.masters-socials-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}

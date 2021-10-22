@@ -89,27 +89,32 @@
     </section>
 
     <!-- услуги и цены -->
-    <p class="section-description">Проведи время в компании лучших мастеров </p>
-    <h2>Услуги и цены</h2>
-    <ul>
-      <li>
+    <section class="services-and-prices section-padding">
+      <div class="container">
+        <p class="section-description text-light-grey">Проведи время в компании лучших мастеров </p>
+        <h2 class="section-title text-white margin-b-xl">Услуги и цены</h2>
         <ul>
-          <li>Мужская стрижка от 300 грн.</li>
-          <li>Стрижка бороды от 200 грн.</li>
-          <li>Стрижка усов от 200 грн.</li>
-          <li>Бритье опасной бритвой от 200 грн.</li>
+          <li>
+            <ul>
+              <li>Мужская стрижка от 300 грн.</li>
+              <li>Стрижка бороды от 200 грн.</li>
+              <li>Стрижка усов от 200 грн.</li>
+              <li>Бритье опасной бритвой от 200 грн.</li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li>Cтрижка у стажера от 50 грн.</li>
+              <li>Стрижка под насадку от 300 грн.</li>
+              <li>Стрижка под насадку от 200 грн.</li>
+              <li>Камуфлирование седины 200 грн.</li>
+            </ul>
+          </li>
         </ul>
-      </li>
-      <li>
-        <ul>
-          <li>Cтрижка у стажера от 50 грн.</li>
-          <li>Стрижка под насадку от 300 грн.</li>
-          <li>Стрижка под насадку от 200 грн.</li>
-          <li>Камуфлирование седины 200 грн.</li>
-        </ul>
-      </li>
-    </ul>
-    <button>онлайн-запись</button>
+        <button class="btn">онлайн-запись</button>
+      </div>
+    </section>
+    
 
     <!-- почему мы -->
     <section>
@@ -137,41 +142,118 @@
     </section>
 
     <!-- наши мастера -->
-    <section>
-      <p>для настоящих ценителей атмосферы</p>
-      <h2>Наши мастера</h2>
-      <ul>
-        <li><img src="./images/img1.jpg" alt=" мастер John Smith" width="370" height="346">
-          <h4 lang="en">John Smith</h4>
-          <p lang="en">Extrem Barber</p>
-          <ul>
-            <li href="#" area-label="Instagram"> </li>
-            <li href="#" area-label="Twitter"> </li>
-            <li href="#" area-label="Facebook"></li>
-            <li href="#" area-label="LinkedIn"> </li>
-          </ul>
-        </li>
-        <li><img src="./images/img2.png" alt=" мастер John Smith" width="370" height="346">
-          <h4 lang="en">Michele Doe</h4>
-          <p lang="en">Extrem Barber</p>
-          <ul>
-            <li href="#" area-label="Instagram"> </li>
-            <li href="#" area-label="Twitter"> </li>
-            <li href="#" area-label="Facebook"></li>
-            <li href="#" area-label="LinkedIn"> </li>
-          </ul>
-        </li>
-        <li><img src="./images/img3.jpg" alt=" мастер John Smith" width="370" height="346">
-          <h4 lang="en">Alan Black</h4>
-          <p lang="en">Extrem Barber</p>
-          <ul>
-            <li href="#" area-label="Instagram"> </li>
-            <li href="#" area-label="Twitter"> </li>
-            <li href="#" area-label="Facebook"></li>
-            <li href="#" area-label="LinkedIn"> </li>
-          </ul>
-        </li>
-      </ul>
+    <section class="our-masters section-padding">
+      <div class="container">
+        <p class="section-description">для настоящих ценителей атмосферы</p>
+        <h2 class="section-title margin-b-xl">Наши мастера</h2>
+        <ul class="masters-list flex">
+          <li class="masters-list-item">
+            <img src="./images/master-1.png" alt="мастер John Smith" class="master-image" width="370" height="346">
+            <h4 class="master-name" lang="en">John Smith</h4>
+            <p class="master-job" lang="en">Extrem Barber</p>
+            <ul class="masters-socials">
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Instagram" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Twitter" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Facebook" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="LinkedIn" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="masters-list-item">
+            <img src="./images/master-2.png" alt="мастер Michele Dou" class="master-image" width="370" height="346">
+            <h4 class="master-name" lang="en">Michele Dou</h4>
+            <p class="master-job" lang="en">Extrem Barber</p>
+            <ul class="masters-socials">
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Instagram" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Twitter" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Facebook" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="LinkedIn" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="masters-list-item">
+            <img src="./images/master-3.png" alt="мастер Alan Black" class="master-image" width="370" height="346">
+            <h4 class="master-name" lang="en">Alan Black</h4>
+            <p class="master-job" lang="en">Extrem Barber</p>
+            <ul class="masters-socials">
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Instagram" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Twitter" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="Facebook" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="masters-socials-item"> 
+                <a href="#" area-label="LinkedIn" class="masters-socials-link">
+                  <svg class="masters-socials-icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <!-- портфолио -->
